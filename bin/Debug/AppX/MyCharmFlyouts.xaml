@@ -1,0 +1,38 @@
+﻿<UserControl
+    x:Class="ModernAlpha.MyCharmFlyouts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ModernAlpha"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:cfo="using:CharmFlyoutLibrary"
+    mc:Ignorable="d">
+    
+    <Grid>
+        <cfo:CharmFlyout x:Name="aboutSettings" Heading="About" HeadingBackgroundBrush="#025544">
+            <StackPanel>
+                <TextBlock FontSize="16">Einstein</TextBlock>
+                <TextBlock FontSize="16">Version 1.0</TextBlock>
+                <TextBlock FontSize="16"></TextBlock>
+                <TextBlock FontSize="16">Developer: Dylan Maryk</TextBlock>
+                <TextBlock FontSize="16">Graphics Artist: Sufian Hassan</TextBlock>
+                <TextBlock FontSize="16">Mockups Artist: George Sabourin</TextBlock>
+                <TextBlock FontSize="16"></TextBlock>
+                <TextBlock FontSize="16">Contact us:</TextBlock>
+                <HyperlinkButton x:ConnectionId='1' x:Name="mailHyperlink"                            >info@codecanopy.com</HyperlinkButton>
+                <TextBlock FontSize="16">Our website:</TextBlock>
+                <HyperlinkButton x:ConnectionId='2' x:Name="websiteHyperlink"                               >www.codecanopy.com</HyperlinkButton>
+                <TextBlock FontSize="16"></TextBlock>
+                <TextBlock FontSize="16">Copyright © 2012 Code Canopy</TextBlock>
+            </StackPanel>
+        </cfo:CharmFlyout>
+        <cfo:CharmFlyout x:Name="privacySettings" Heading="Privacy policy" HeadingBackgroundBrush="#025544">
+            <StackPanel>
+                <TextBlock FontSize="16" TextWrapping="Wrap">Einstein does not collect, store or share any personal information. We do not collect statistics, trends or user movements.</TextBlock>
+                <TextBlock FontSize="16"></TextBlock>
+                <TextBlock FontSize="16" TextWrapping="Wrap">This application retrieves data using the Wolfram|Alpha API. We are not responsible for any of the content provided by Wolfram|Alpha.</TextBlock>
+            </StackPanel>
+        </cfo:CharmFlyout>
+    </Grid>
+</UserControl>
+

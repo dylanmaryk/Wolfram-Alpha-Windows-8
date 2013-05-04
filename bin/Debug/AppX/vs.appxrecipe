@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DYLAN-PC-8</Machine>
+    <WindowsUser>Dylan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>60946893E9B363198204CBA8A7C77B4904382765E8276FF35BA00FD14E9D962C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d794bd62-5a6e-4780-962e-1d4f0b83ee52_1.0.0.0_neutral__2ccv9674ecry0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d794bd62-5a6e-4780-962e-1d4f0b83ee52_2ccv9674ecry0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d794bd62-5a6e-4780-962e-1d4f0b83ee52</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dylan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-04T12:58:00.058</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\Einstein.exe">
+      <PackagePath>Einstein.exe</PackagePath>
+      <Modified>2013-05-04T12:57:58.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\Einstein.pdb">
+      <PackagePath>Einstein.pdb</PackagePath>
+      <Modified>2013-05-04T12:57:58.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\packages\CharmFlyout.1.0.10\lib\winrt45\CharmFlyoutLibrary.dll">
+      <PackagePath>CharmFlyoutLibrary.dll</PackagePath>
+      <Modified>2013-05-04T12:54:27.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2013-05-04T12:54:27.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-04T12:54:27.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\header.png">
+      <PackagePath>Assets\header.png</PackagePath>
+      <Modified>2013-05-04T12:54:27.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-04T12:54:27.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-04T12:54:27.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-04T12:54:27.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Assets\wa-logo.png">
+      <PackagePath>Assets\wa-logo.png</PackagePath>
+      <Modified>2013-05-04T12:54:27.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-05-04T12:54:27.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:27.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:27.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\MyCharmFlyouts.xaml">
+      <PackagePath>MyCharmFlyouts.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:27.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\SearchResults.xaml">
+      <PackagePath>SearchResults.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:27.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\packages\CharmFlyout.1.0.10\lib\winrt45\CharmFlyoutLibrary\Themes\Generic.xaml">
+      <PackagePath>CharmFlyoutLibrary\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-05-04T12:54:27.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2012\Projects\ModernAlpha\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-04T12:57:59.209</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

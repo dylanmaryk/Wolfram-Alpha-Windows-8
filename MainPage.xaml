@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="ModernAlpha.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ModernAlpha"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:cfo="using:CharmFlyoutLibrary"
+    mc:Ignorable="d">
+
+    <Grid Background="#025544">
+        <!--Just to replace text box as selected item-->
+        <cfo:CharmFlyout />
+        
+        <Image Source="Assets/bg.png" Stretch="None" />
+        <Image Source="Assets/header.png" Stretch="None" Height="229" Width="719" HorizontalAlignment="Center" Margin="323.5,147,323.5,392" />
+        <TextBox Name="textBoxSearch" Text="Enter what you want to know about or calculate..." KeyDown="textBoxSearch_KeyDown" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="36" Margin="0,56,0,36" FontSize="18.667" IsSpellCheckEnabled="True" GotFocus="textBoxSearch_GotFocus" LostFocus="textBoxSearch_LostFocus" />
+    </Grid>
+</Page>
